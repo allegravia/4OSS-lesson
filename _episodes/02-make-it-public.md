@@ -58,6 +58,9 @@ on this topic, and other advice on starting an open source project, check out th
     - This file is automatically displayed on the front page of your repository
     - It has important information about your project
 
+ The '.md' extension indicates that a file is written in Markdown language, which uses plain text formatting syntax.
+ 
+ 
  To format the contents of this file you will use Markdown syntax. If you want to know more about it you can use this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or this [short guide](https://guides.github.com/features/mastering-markdown/)
 
 
@@ -71,7 +74,7 @@ on this topic, and other advice on starting an open source project, check out th
 {: .challenge}
 
 - In addition to the README & LICENSE (.md) files, a good software project might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
-- You should have a good idea of what is the appropriate license for your project after the [next lesson](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help choosing an license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
+- You should have a good idea of what is the appropriate license for your project after the [next lesson](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help to choose a license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
 - Making the project public at the start is not enough! See the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/) for advice on best practice in software version control.
 
 > ## Discussion: How does version control help your project?
