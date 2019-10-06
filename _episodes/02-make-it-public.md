@@ -58,19 +58,29 @@ on this topic, and other advice on starting an open source project, check out th
     - This file is automatically displayed on the front page of your repository
     - It has important information about your project
 
- The '.md' extension indicates that a file is written in Markdown language, which uses plain text formatting syntax.
+ The '.md' extension indicates that the file is written in Markdown language, which uses plain text formatting syntax that can be converted into web output format. Markdown syntax is basically plain text with a few non-alphabetic characters such as * or # for bold, italics, headings, etc. to style test. For example, you can make some text bold by adding two asterisks \** before and after the text: 
  
+```
+**This text is bold** 
+```
+will appear as: 
+
+**This text is bold**
  
- To format the contents of this file you will use Markdown syntax. If you want to know more about it you can use this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or this [short guide](https://guides.github.com/features/mastering-markdown/)
-
-
+It is also possible to create lists, insert images, tables, web links and more.
+ 
+We will see now some basic writing and formatting syntax by following this [short guide](https://guides.github.com/features/mastering-markdown/). This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) also provide useful guidance. 
+ 
 > ## Challenge: Improve the README
 >
 > The README.md file that GitHub generated when we created the project is quite
 > boring. Add some more content using some of the Markdown syntax introduced
-> above. You could add a few sentences about the purpose of your software, some
+> above (if you don't remember a Markdown command you can refer to the 
+> [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) mentioned above). 
+> You could add a few sentences about the purpose of your software, some
 > details of the author(s) and their affiliation(s), or anything else that you
 > think is important.
+> 
 {: .challenge}
 
 - In addition to the README & LICENSE (.md) files, a good software project might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
