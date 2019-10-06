@@ -69,7 +69,7 @@ will appear as:
  
 It is also possible to create lists, insert images, tables, web links and more.
  
-We will see now some basic writing and formatting syntax by following this [short guide](https://guides.github.com/features/mastering-markdown/). This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) also provide useful guidance. 
+We will see now some basic writing and formatting syntax by following this [short guide](https://guides.github.com/features/mastering-markdown/). This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) also provides useful guidance. 
  
 > ## Challenge: Improve the README
 >
@@ -80,12 +80,42 @@ We will see now some basic writing and formatting syntax by following this [shor
 > You could add a few sentences about the purpose of your software, some
 > details of the author(s) and their affiliation(s), or anything else that you
 > think is important.
-> 
 {: .challenge}
+
+In addition to the README.md file, a good software project should include other "recommended community health files". What other files should you include in your project? If your project is hosted on GitHub, you may refer to the [GitHub Community Profile](https://help.github.com/en/articles/accessing-a-projects-community-profile). In general, a public repository Community Profile provides guidance and best practices about how to help grow a community and support contributors.  
+[Here](https://github.com/SoftDev4Research/4OSS-lesson/community) you can find the GitHub Community Profile checklist, which can be used to see if your project includes community health files recommended by GitHub. These include a project DESCRIPTION.md file, a README file and a code of conduct, which contains standards on how to engage in the community. Furthermore, a project should have a CONTRIBUTING.md file (for details see episode on "Define clear and transparent contribution, governance and communication processes") outlining guidance for contributing to the project, a LICENCE.md file that states how the code can be used, details of how to correctly cite the software after publication (CITATION.md - see later in this episode), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS). Templates for GitHub issues and pull requests are also required for a complete community profile (see the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/)to learn about GitHub issues and pull requests).
+You should have a good idea of what is the appropriate license for your project after the [next episode](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help to choose a license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
+
+DA QUI
+
+DEVI AGGIUNGERE UNA CHALLENGE
+
+Additional files provide insight on: how to contibute to the project
+
+> ## Challenge: What other files?
+> 
+
+might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
+
+Exercise: what other files? (this should be arround community insight page, Allegra)
+GitHub Insights Community
+https://github.com/SoftDev4Research/4OSS-lesson/community
+Add explanation for community profile and explain  README files and say other files will be explained in detail in relevant sections (Allegra)
+CONTRIBUTING.md
+CITE.cff
+why citation?
+we need recognition for software and that will not happen if there is no way to cite software
+COC
+requirements.txt/environment.yml
+CHANGELOG.md
+metadata description (codemeta, schema.org, requirements by different journal eg. SoftwareX)
+license
 
 - In addition to the README & LICENSE (.md) files, a good software project might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
 - You should have a good idea of what is the appropriate license for your project after the [next lesson](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help to choose a license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
 - Making the project public at the start is not enough! See the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/) for advice on best practice in software version control.
+
+A QUI
 
 > ## Discussion: How does version control help your project?
 > #### 5 minutes
