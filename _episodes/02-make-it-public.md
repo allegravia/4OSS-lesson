@@ -92,7 +92,8 @@ Notice that you, as a research/scientific software developer, need recognition f
 
 > ## Challenge: Add a CITATION.cff file to your repository
 > You can use the example provided [here](https://citation-file-format.github.io) to create a CITATION.cff  
-> file for your software and add it to your repository. 
+> file for your software and add it to your repository. It is not relevant to use real information for this exercise. 
+> It is important that you see how to write a .cff file and to include it in your repository. 
 
 {: .challenge}
 
