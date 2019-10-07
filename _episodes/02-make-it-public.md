@@ -80,6 +80,7 @@ We will see now some basic writing and formatting syntax by following this [shor
 > You could add a few sentences about the purpose of your software, some
 > details of the author(s) and their affiliation(s), or anything else that you
 > think is important.
+
 {: .challenge}
 
 In addition to the README.md file, a good software project should include other "recommended community health files". What other files should you include in your project? You may find insights on health files to include in your project (to ensure that it meets the recommended community standards) in the Community Profile of the public repository hosting your project. Indeed, a public repository Community Profile provides rules and best practices on how to help grow a community and support contributors in using and contributing to your project. If your project is hosted on GitHub, you may refer to the [GitHub Community Profile](https://github.com/SoftDev4Research/4OSS-lesson/community), which can be accessed following [these instructions](https://help.github.com/en/articles/accessing-a-projects-community-profile) and where you can find a checklist that can be used to see if your project includes community health files recommended by GitHub. 
@@ -92,6 +93,7 @@ Notice that you, as a research/scientific software developer, need recognition f
 > ## Challenge: Add a CITATION.cff file to your repository
 > You can use the example provided [here](https://citation-file-format.github.io) to create a CITATION.cff  
 > file for your software and add it to your repository. 
+
 {: .challenge}
 
 You will find more about how to publish your software later in this episode. Other health files will be described in detail in relevant sections.
