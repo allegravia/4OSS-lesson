@@ -82,40 +82,19 @@ We will see now some basic writing and formatting syntax by following this [shor
 > think is important.
 {: .challenge}
 
-In addition to the README.md file, a good software project should include other "recommended community health files". What other files should you include in your project? If your project is hosted on GitHub, you may refer to the [GitHub Community Profile](https://help.github.com/en/articles/accessing-a-projects-community-profile). In general, a public repository Community Profile provides guidance and best practices about how to help grow a community and support contributors.  
-[Here](https://github.com/SoftDev4Research/4OSS-lesson/community) you can find the GitHub Community Profile checklist, which can be used to see if your project includes community health files recommended by GitHub. These include a project DESCRIPTION.md file, a README file and a code of conduct, which contains standards on how to engage in the community. Furthermore, a project should have a CONTRIBUTING.md file (for details see episode on "Define clear and transparent contribution, governance and communication processes") outlining guidance for contributing to the project, a LICENCE.md file that states how the code can be used, details of how to correctly cite the software after publication (CITATION.md - see later in this episode), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS). Templates for GitHub issues and pull requests are also required for a complete community profile (see the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/)to learn about GitHub issues and pull requests).
-You should have a good idea of what is the appropriate license for your project after the [next episode](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help to choose a license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
+In addition to the README.md file, a good software project should include other "recommended community health files". What other files should you include in your project? You may find insights on health files to include in your project (to ensure that it meets the recommended community standards) in the Community Profile of the public repository hosting your project. Indeed, a public repository Community Profile provides rules and best practices on how to help grow a community and support contributors in using and contributing to your project. If your project is hosted on GitHub, you may refer to the [GitHub Community Profile](https://github.com/SoftDev4Research/4OSS-lesson/community), which can be accessed following [these instructions](https://help.github.com/en/articles/accessing-a-projects-community-profile) and where you can find a checklist that can be used to see if your project includes community health files recommended by GitHub. 
+These include a project DESCRIPTION file, a README file and a CODE_OF_CONDUCT, which contains standards on how to engage in the community. Furthermore, a project should have a CONTRIBUTING file (for details see episode on "Define clear and transparent contribution, governance and communication processes") outlining guidance for contributing to the project, and a LICENCE file that states how the code can be used. You should have a good idea of what is the appropriate license for your project after the [next episode](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html). Templates for GitHub issues and pull requests are also required for a complete community profile (see the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/) to learn about GitHub issues and pull requests).
 
-DA QUI
+You might also want to add details of how to correctly cite the software after publication. This can be done by adding a file called CITATION.cff in the root of your repository (where other health files are stored). The .cff (Citation File Format) is a machine-readble and human-readble and -writable format providing citation information for research software.
+You may also add a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS). 
+Notice that you, as a research/scientific software developer, need recognition for software you develop and this will not happen if there is no way to cite your software.
 
-DEVI AGGIUNGERE UNA CHALLENGE
+> ## Challenge: Add a CITATION.cff file to your repository
+> You can use the example provided [here](https://citation-file-format.github.io) to create a CITATION.cff  
+> file for your software and add it to your repository. 
+{: .challenge}
 
-Additional files provide insight on: how to contibute to the project
-
-> ## Challenge: What other files?
-> 
-
-might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
-
-Exercise: what other files? (this should be arround community insight page, Allegra)
-GitHub Insights Community
-https://github.com/SoftDev4Research/4OSS-lesson/community
-Add explanation for community profile and explain  README files and say other files will be explained in detail in relevant sections (Allegra)
-CONTRIBUTING.md
-CITE.cff
-why citation?
-we need recognition for software and that will not happen if there is no way to cite software
-COC
-requirements.txt/environment.yml
-CHANGELOG.md
-metadata description (codemeta, schema.org, requirements by different journal eg. SoftwareX)
-license
-
-- In addition to the README & LICENSE (.md) files, a good software project might include guidance for contributing to the project (CONTRIBUTING.md - see lesson on contributions, governance, and communication), details of how to correctly cite the software after publication (CITATION.md - see later in this lesson), or even a `paper.md` file if the software is published via the Journal of Open Source Software (JOSS)
-- You should have a good idea of what is the appropriate license for your project after the [next lesson](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) but, if you need help to choose a license, you can also click on the "info" button next to the "add a license" dropdown, which will take you to https://choosealicense.com/
-- Making the project public at the start is not enough! See the [Software Carpentry lesson on Version Control with Git](http://swcarpentry.github.io/git-novice/) for advice on best practice in software version control.
-
-A QUI
+You will find more about how to publish your software later in this episode. Other health files will be described in detail in relevant sections.
 
 > ## Discussion: How does version control help your project?
 > #### 5 minutes
